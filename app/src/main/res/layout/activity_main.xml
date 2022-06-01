@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/mainActivityTv"
+        android:background="#00FFFFFF"
+        android:textAllCaps="true"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_edad"
+        android:textColor="@color/white"
+         />
+
+    <EditText
+        android:id="@+id/mainActivityEtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="@string/instruccion"
+        android:textColor="@color/DarkGray"
+        />
+
+    <Button
+        android:id="@+id/mainActivityBtEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        />
+
+</LinearLayout>

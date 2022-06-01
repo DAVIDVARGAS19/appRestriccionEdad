@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">MyFirstApplication</string>
+
+    <!--Main Activity-->
+    <string name="intro_edad">Introduce tu edad</string>
+    <string name="enviar">Enviar</string>
+    <string name="instruccion">Ponga su edad mi perro</string>
+
+    <!--Acceso Ok Activity-->
+    <string name="edad">Edad</string>
+
+    <!--No Acceso Activity-->
+    <string name="no_tienes_edad">No tienes edad para utilizar esta App</string>
+    <string name="tienes_que_ser_mayor">Tienes que ser mayor de 18 para acceder</string>
+</resources>
